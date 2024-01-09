@@ -5,7 +5,6 @@
 
 body {
      font-family: 'Inter', sans-serif;
-     font-family: 'Inter', sans-serif;
      font-family: 'Merriweather Sans', sans-serif;
 }
 .background-img {
@@ -13,22 +12,23 @@ body {
      background-repeat: no-repeat;
      padding-bottom: 180px;
      background-position: center;
-     padding-top: 100px;
+     padding-top: 200px;
 }
 
 .happy {
      text-align: center;
      color: #FFF;
      font-size: 32px;
-         padding-top: 202px;
-    
+     padding-top: 78px;    
 }
 .happy h4 {
      margin-top: 50px;
      margin: 10px;
+     font-size: 24px;
 }
 .happy h2 {
      margin: 0;
+     padding-bottom: 77px;
      
 }
 
@@ -41,7 +41,6 @@ body {
      font-weight: 700;
      color: red;
      margin-bottom: 0;
-     padding-top: 84px;
 }
 .picnic-offer h4 {
      color: #F00;
@@ -64,9 +63,9 @@ body {
      padding: 162px 0;
      margin-top: 70px;
 }
-.position-relative {
+/* .position-relative {
      position: relative!important;
- }
+ } */
 .app-shape {
      position: absolute;
      left: 64%;
@@ -90,12 +89,6 @@ body {
 .welcome {
      padding-top: 50px;
 }
-.merid-title {
-     font-size: 18px;
-     font-weight: 400;
-     padding: 10px 144px;
-     color: #FFF;
-}
 .merid-title p {
      font-size: 18px;
      font-weight: 400;
@@ -109,6 +102,8 @@ body {
      font-size: 64px;
      font-weight: 900;
      margin-right: 40px;
+     padding: 10px 144px;
+     color: #FFF;
 }
 .imgin-section img {
      display: block;
@@ -177,6 +172,8 @@ body {
      display: flex;
      justify-content: space-around;
      padding-top: 140px;
+     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+     margin: 14px 84px;
 }
 .park-title span{
      color: #F00;
@@ -306,6 +303,7 @@ margin-bottom: 30px;
      padding-top: 100px;
      padding-bottom: 100px;
      text-align: center;
+     margin-top: 50px;
  }
  .email-cart h2 {
      padding: 20px;
@@ -314,21 +312,27 @@ margin-bottom: 30px;
      color: rgba(7, 2, 17, 0.60);
  }
 .btn-primary{
-     border-radius: 5px;
-     border: 0;
      font-size: 20px;
      padding: 15px 35px;
      background: #fff;
      color: rgba(7, 2, 17, 0.30);
      border-radius: 50px 0px 0px 50px;
+}
+.primary{
+     border: 0;
+     font-size: 20px;
+     padding: 15px 35px;
+     background: red;
+     border-radius: 5px;
+     margin: 20px;
+     color: #fff;
 
 }
 .sub{
      border-radius: 0px 50px 50px 0px;
-     border: none;
+     border: 0;
      font-size: 20px;
      padding: 15px 35px;
-     background: #fff;
      width: 77px;
      background: red;
 }
@@ -351,4 +355,18 @@ margin-bottom: 30px;
 }
 .copy-area{
      background-color: black;
+}
+
+
+
+
+
+
+/* etra */
+.icon-are {
+     padding-top: 30px;
+ }
+.icon{
+     color: #fff;
+     margin-left: 10px;
 }
